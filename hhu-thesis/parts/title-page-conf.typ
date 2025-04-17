@@ -187,10 +187,10 @@
     grid(
       columns: (10em, 1em, 10em),
       row-gutter: 1.5em,
-      fieldname([College]), ":", align(left, school.EN),
-      fieldname([Subject]), ":", align(left, subject),
-      fieldname([Name]), ":", align(left, author.EN),
-      fieldname([Directed by]), ":", align(left, advisors.EN),
+      align(left, fieldname([College])), ":", align(left, school.EN),
+      align(left, fieldname([Subject])), ":", align(left, subject),
+      align(left, fieldname([Name])), ":", align(left, author.EN),
+      align(left, fieldname([Directed by])), ":", align(left, advisors.EN),
     )
 
     v(1cm)
